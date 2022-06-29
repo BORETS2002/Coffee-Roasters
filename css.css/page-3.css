@@ -388,7 +388,7 @@ body {
   font-style: normal;
   overflow-x: hidden;
 }
-ma * {
+* {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -601,6 +601,7 @@ ma * {
 }
 .itms-big-text {
   margin: 0;
+  text-transform: uppercase;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -727,7 +728,7 @@ ma * {
 
   -ms-flex-pack: center;
 
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .label {
@@ -774,7 +775,7 @@ input:checked ~ .bossss {
 .box-margin {
   margin-top: 60px;
 }
-.order-box {
+.order-box-mini {
   width: 660px;
   margin-top: 100px;
   margin-bottom: 20px;
@@ -783,7 +784,7 @@ input:checked ~ .bossss {
   background-size: 100%;
   background-repeat: no-repeat;
 }
-.order-box-h3 {
+.order-box-h {
   margin: 0;
   margin-bottom: 14px;
   font-family: "Roboto";
@@ -796,7 +797,7 @@ input:checked ~ .bossss {
 
   mix-blend-mode: normal;
 }
-.order-box-tex {
+.order-box-tex-1 {
   margin: 0;
   font-family: "Roboto";
   font-style: normal;
@@ -805,13 +806,14 @@ input:checked ~ .bossss {
   line-height: 34px;
   color: #ffffff;
 }
-.boya {
+.boya-1 {
   color: #333333;
 }
 .bottom-cofe {
-  margin-left: 545px;
+  margin-left: 470px;
   padding: 16px 24px;
   font-family: "Roboto";
+  text-transform: uppercase;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -824,7 +826,6 @@ input:checked ~ .bossss {
   border-radius: 100px;
   color: #ffffff;
 }
-
 .list-navbar-icon {
   margin: 0;
   padding: 0;
@@ -838,13 +839,16 @@ input:checked ~ .bossss {
 .itms-navbar-icon:not(:nth-child(3)) {
   margin-right: 30px;
 }
-
 .list-foter {
   margin-right: 50px;
 }
-
-.ol-trhee::after {
-  display: block;
+.optom-section-three::after {
+  /* display: block; */
+}
+.drink-cofee {
+  position: relative;
+}
+.drink-cofee::before {
   content: "";
   width: 401px;
   height: 300px;
@@ -852,6 +856,126 @@ input:checked ~ .bossss {
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
-  bottom: calc(50% - 520px);
-  left: calc(50% - 950px);
+  top: 752px;
+  left: -844px;
+}
+.drink-cofee::after {
+  content: "";
+  width: 401px;
+  height: 300px;
+  background-image: url("/imgs/Fill-1-ong.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 225px;
+  right: -390px;
+}
+.box-label-img::before {
+  position: absolute;
+  content: "";
+  width: 316px;
+  height: 269px;
+  background-image: url("/imgs/Vector-chap.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  bottom: 320px;
+  left: -905px;
+}
+.container-mini {
+  width: 630px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.modal {
+  display: none;
+}
+.parda {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  background: #00000080;
+}
+.modal-show {
+  display: block;
+}
+.order-box {
+  margin-top: 120px;
+}
+
+.box {
+  background-color: #ffffff;
+  padding: 50px 30px 50px 30px;
+}
+.order-box-h3 {
+  margin: 0;
+  padding: 19px 0 19px 30px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 52px;
+  font-variant: small-caps;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-image: url("/imgs/toq-sariq-fon.svg");
+  background-repeat: no-repeat;
+  background-size: 100%x;
+}
+.order-box-tex {
+  margin: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 34px;
+  color: #000;
+}
+.boya {
+  color: #0a775f;
+}
+.mini-tex {
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #333333;
+}
+.dable-botom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.doolr {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+.boton {
+  padding: 16px 24px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-variant: small-caps;
+  color: #ffffff;
+  background: #0a775f;
+  border-radius: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
 }

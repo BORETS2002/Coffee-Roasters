@@ -402,6 +402,13 @@ ma * {
   background-repeat: no-repeat;
   padding: 40px 0;
 }
+.site-hider {
+  display: block;
+  background-image: url("/imgs/fon-jgarang.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 40px 0;
+}
 
 .oll-headr {
   display: flex;
@@ -886,6 +893,7 @@ ma * {
 }
 .itms-navbar-icon {
   list-style: none;
+  display: block;
 }
 .itms-navbar-icon:not(:nth-child(3)) {
   margin-right: 30px;

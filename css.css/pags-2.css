@@ -642,6 +642,9 @@ ma * {
   list-style: none;
   position: relative;
 }
+.one {
+  padding: 121px 28px 40px 20px;
+}
 .end-itms:not(:nth-child(3)) {
   margin-right: 20px;
 }
@@ -727,6 +730,7 @@ ma * {
 }
 .itms-navbar-icon {
   list-style: none;
+  display: block;
 }
 .itms-navbar-icon:not(:nth-child(3)) {
   margin-right: 30px;

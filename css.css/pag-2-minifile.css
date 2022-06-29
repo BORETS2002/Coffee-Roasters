@@ -1238,6 +1238,7 @@ body {
 .end-itms:not(:nth-child(3)) {
   margin-right: 20px;
 }
+
 .box-tex-coffee {
   width: 140px;
   margin-bottom: 10px;

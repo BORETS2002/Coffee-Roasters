@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("/fonts/roboto-v30-latin-regular.woff2") format("woff2"),
+    url("/fonts/roboto-v30-latin-regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("/fonts/roboto-v30-latin-500.woff2") format("woff2"),
+    url("/fonts/roboto-v30-latin-500.woff") format("woff");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("/fonts/roboto-v30-latin-700.woff2") format("woff2"),
+    url("/fonts/roboto-v30-latin-700.woff") format("woff");
+}
+body {
+  margin: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  overflow-x: hidden;
+}
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container-mini {
+  width: 630px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.modal {
+  display: none;
+}
+.parda {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  background: #00000080;
+}
+.modal-show {
+  display: block;
+}
+.order-box {
+  margin-top: 137px;
+}
+
+.box {
+  background-color: #ffffff;
+  padding: 50px 30px 50px 30px;
+}
+.order-box-h3 {
+  margin: 0;
+  padding: 19px 0 19px 30px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 52px;
+  font-variant: small-caps;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-image: url("/imgs/toq-sariq-fon.svg");
+  background-repeat: no-repeat;
+  background-size: 100%x;
+}
+.order-box-tex {
+  margin: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 34px;
+  color: #000;
+}
+.boya {
+  color: #0a775f;
+}
+.mini-tex {
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #333333;
+}
+.dable-botom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.doolr {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+.boton {
+  padding: 16px 24px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-variant: small-caps;
+  color: #ffffff;
+  background: #0a775f;
+  border-radius: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+}
